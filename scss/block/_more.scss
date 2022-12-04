@@ -45,6 +45,9 @@ background-position: bottom ;
   color: #003459;
   margin-right: 20px;
   position: relative;
+  &:hover{
+    color: burlywood;
+  }
   &::after {
     content: "";
     display: inline-block;
