@@ -23,6 +23,13 @@ margin-left: auto;margin-right: auto;
   font-size: 16px;
   line-height: 24px;
   color: #003459;
+    
+  &:hover{
+    color: blueviolet;
+  }
+  &:active{
+   color: brown;
+  }
 }
 .header__left-block {
   max-width: 529px;
@@ -96,6 +103,14 @@ margin-left: auto;margin-right: auto;
   color: #fdfdfd;
   background: #003459;
   border-radius: 57px;
+  &:hover{
+    color:white;
+    background-color: coral;
+  }
+  &:active{
+    color:white;
+    background-color: green;
+  }
 }
 .header__right-would {
   background-color: transparent;

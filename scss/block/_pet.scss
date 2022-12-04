@@ -24,6 +24,14 @@
   border: 1.5px solid #003459;
   border-radius: 57px;
   position: relative;
+  &:hover{
+    color:white;
+    background-color: coral;
+  }
+  &:active{
+    color:white;
+    background-color: green;
+  }
   &::after{
     content: "";
     display: inline-block;
@@ -45,36 +53,96 @@
 .pet__main-show-logo{
     width: 88px;
     height: 64px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover{
+      transform: scale(1.1);
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.726);
+  
+    }
+    
 }
 .pet__main-show-logo2{
     width: 114px;
     height: 114px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover{
+      transform: scale(1.1);
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.726);
+  
+    }
 }
 .pet__main-show-logo3{
     width: 104px;
     height: 46px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover{
+      transform: scale(1.1);
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.726);
+  
+    }
 }
 .pet__main-show-logo4{
     width: 92px;
     height: 64px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover{
+      transform: scale(1.1);
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.726);
+  
+    }
 }
 .pet__main-show-logo5{
     width: 92px;
     height: 92px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover{
+      transform: scale(1.1);
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.726);
+  
+    }
 }
 .pet__main-show-logo6{
     width: 130px;
     height: 56px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover{
+      transform: scale(1.1);
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.726);
+  
+    }
 }
 .pet__main-show-logo7{
     width: 116px;
     height: 72px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover{
+      transform: scale(1.1);
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.726);
+  
+    }
+}
+.pet__main-show-logo8{
+  cursor: pointer;
+    transition: 0.3s;
+    &:hover{
+      transform: scale(1.1);
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.726);
+  
+    }
 }
 
 .pet__bottom-block{
     display: flex;
     align-items: center;
     justify-content: space-between;
+   
 }
 @media screen and (max-width:1143px) {
   .pet{

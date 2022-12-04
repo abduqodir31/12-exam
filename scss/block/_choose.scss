@@ -47,6 +47,14 @@ position: relative;
   line-height: 20px;
   color: #003459;
   margin-bottom: 36px;
+  &:hover{
+    color:white;
+    background-color: coral;
+  }
+  &:active{
+    color:white;
+    background-color: green;
+  }
 }
 .choose__middle {
   display: flex;
@@ -85,6 +93,16 @@ position: relative;
   border-radius: 12px;
   max-width: 260px;
   margin-bottom: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.726);
+    background-color: aqua;
+  }
+  &:active{
+    background-color: antiquewhite;
+  }
 }
 .choose__list {
   display: flex;

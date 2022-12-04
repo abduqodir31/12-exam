@@ -29,6 +29,14 @@
   border-radius: 57px;
   position: relative;
   margin-bottom: 28px;
+  &:hover{
+    color:white;
+    background-color: coral;
+  }
+  &:active{
+    color:white;
+    background-color: green;
+  }
   &::after {
     content: "";
     display: inline-block;
@@ -79,6 +87,16 @@
   border-radius: 12px;
   max-width: 370px;
   margin-bottom: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.726);
+    background-color: aqua;
+  }
+  &:active{
+    background-color: antiquewhite;
+  }
 }
 .finally__img {
   max-width: 364px;
@@ -117,6 +135,16 @@
   border-radius: 12px;
   max-width: 370px;
   margin-bottom: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.726);
+    background-color: aqua;
+  }
+  &:active{
+    background-color: antiquewhite;
+  }
 }
 @media screen and (max-width:1191px) {
     .finally__items-1{
