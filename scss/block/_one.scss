@@ -1,5 +1,5 @@
 .one__main-block {
-  background-image: url("../../image/Banner-for-one.png");
+  background-image: url("../image/Banner-for-one.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -37,7 +37,7 @@
 }
 @media screen and (max-width: 1150px) {
   .one__main-block {
-    background-image: url("../../image/uji-ikkinchi-bgi.png");
+    background-image: url("../image/uji-ikkinchi-bgi.png");
     background-repeat: no-repeat;
     max-width: 572px;
     height: 640px;
@@ -55,7 +55,7 @@
 }
 @media screen and (max-width: 610px) {
   .one__main-block {
-    background-image: url(../../image/Banner-1221212121.png);
+    background-image: url(../image/Banner-1221212121.png);
 
     text-align: center;
   }
